@@ -1,3 +1,8 @@
+// TODO: change toon material to standard material
+// TODO: add particle effects, see reference https://taksofonas.lt/en/
+// TODO: continuation of above, I want a grainy effect
+// TODO: structure content with css flex?
+// TODO: add distortion based on mouse position.
 import "./style.css";
 import * as THREE from "three";
 import * as dat from "lil-gui";
@@ -6,7 +11,7 @@ import gsap from "gsap";
 // debugging
 const gui = new dat.GUI();
 const parameters = {
-    materialColor: '#634f72'
+    materialColor: '#950aff'
 };
 gui
     .addColor(parameters, 'materialColor')
