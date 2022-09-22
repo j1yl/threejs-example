@@ -8,7 +8,7 @@
 }
 
 html {
-  background: #000000;
+    background: #000000;
 }
 
 .webgl {
@@ -18,7 +18,7 @@ html {
     outline: none;
 }
 
-.section h1 {
+.section {
     display: flex;
     align-items: center;
     height: 100vh;
