@@ -27,11 +27,6 @@ html {
     font-size: 6vmin;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 40%;
-}
-
-h1 {
-  padding-right: 4rem;
 }
 
 section:nth-child(odd) {
